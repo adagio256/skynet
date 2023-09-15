@@ -10,13 +10,14 @@ readme = "README.md"
 [tool.poetry.dependencies]
 fastapi = "0.101.1"
 fastapi-versionizer = "0.1.6"
-langchain = "0.0.268"
+langchain = "0.0.291"
 llama-cpp-python = {version = "0.1.83", extras = ["server"]}
 pydantic = "2.0.3"
 pyjwt = "2.6.0"
 python = "^3.11"
 uvicorn = "0.23.2"
 cryptography = "41.0.3"
+scikit-learn = "^1.3.0"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
